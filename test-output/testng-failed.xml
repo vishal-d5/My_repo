@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="FullSite.WebListenerJbk"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="FullSite.UsersPage">
+        <methods>
+          <include name="chkLable"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="chkAlertSubmit"/>
+        </methods>
+      </class> <!-- FullSite.UsersPage -->
+      <class name="FullSite.DownloadsPage">
+        <methods>
+          <include name="chkDwnTbl"/>
+          <include name="chkMozilaBrowserOfficial"/>
+          <include name="chkChromedriverOfficial"/>
+          <include name="chkChromeBrowserOfficialLnk"/>
+          <include name="chkSourceJarOfficialLnk"/>
+          <include name="afterMethod"/>
+          <include name="chkStandalonJarLnk"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- FullSite.DownloadsPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

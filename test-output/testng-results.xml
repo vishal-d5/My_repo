@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="4" ignored="0" total="54" passed="46">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="757916" started-at="2020-06-18T11:31:15 IST" finished-at="2020-06-18T11:43:53 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="757916" started-at="2020-06-18T11:31:15 IST" finished-at="2020-06-18T11:43:53 IST">
+      <class name="FullSite.UsersPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="7007" started-at="2020-06-18T11:32:42 IST" finished-at="2020-06-18T11:32:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ADDUsrCancelbtn()[pri:1, instance:FullSite.UsersPage@6d1014]" name="ADDUsrCancelbtn" duration-ms="10675" started-at="2020-06-18T11:32:49 IST" finished-at="2020-06-18T11:32:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADDUsrCancelbtn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="283" started-at="2020-06-18T11:32:59 IST" finished-at="2020-06-18T11:33:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="6601" started-at="2020-06-18T11:33:00 IST" finished-at="2020-06-18T11:33:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkadduserJbkLink()[pri:2, instance:FullSite.UsersPage@6d1014]" name="chkadduserJbkLink" duration-ms="12242" started-at="2020-06-18T11:33:06 IST" finished-at="2020-06-18T11:33:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkadduserJbkLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="313" started-at="2020-06-18T11:33:18 IST" finished-at="2020-06-18T11:33:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="6309" started-at="2020-06-18T11:33:19 IST" finished-at="2020-06-18T11:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkTblHeading()[pri:3, instance:FullSite.UsersPage@6d1014]" name="chkTblHeading" duration-ms="5825" started-at="2020-06-18T11:33:25 IST" finished-at="2020-06-18T11:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkTblHeading -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="235" started-at="2020-06-18T11:33:31 IST" finished-at="2020-06-18T11:33:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="7161" started-at="2020-06-18T11:33:31 IST" finished-at="2020-06-18T11:33:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="chkLable()[pri:4, instance:FullSite.UsersPage@6d1014]" name="chkLable" duration-ms="8829" started-at="2020-06-18T11:33:38 IST" finished-at="2020-06-18T11:33:47 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<[Username, Mobile, Email, Courses, Gender, State, Password]> but was:<[Username, Mobile, Email, Courss, Gender, State, Password]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<[Username, Mobile, Email, Courses, Gender, State, Password]> but was:<[Username, Mobile, Email, Courss, Gender, State, Password]>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:71)
+at FullSite.UsersPage.chkLable(UsersPage.java:103)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkLable -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="348" started-at="2020-06-18T11:33:47 IST" finished-at="2020-06-18T11:33:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="7369" started-at="2020-06-18T11:33:47 IST" finished-at="2020-06-18T11:33:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkHomeLnkUsrPage()[pri:5, instance:FullSite.UsersPage@6d1014]" name="chkHomeLnkUsrPage" duration-ms="5637" started-at="2020-06-18T11:33:55 IST" finished-at="2020-06-18T11:34:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkHomeLnkUsrPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="2162" started-at="2020-06-18T11:34:00 IST" finished-at="2020-06-18T11:34:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="6319" started-at="2020-06-18T11:34:03 IST" finished-at="2020-06-18T11:34:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="chkAlertSubmit()[pri:6, instance:FullSite.UsersPage@6d1014]" name="chkAlertSubmit" duration-ms="8599" started-at="2020-06-18T11:34:09 IST" finished-at="2020-06-18T11:34:18 IST">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=83.0.4103.97)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52913}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: fb2c8a5cb1cbc909a1530915f1937b39]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=83.0.4103.97)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52913}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: fb2c8a5cb1cbc909a1530915f1937b39
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+at FullSite.CommonMethods.altCatch(CommonMethods.java:62)
+at FullSite.UsersPage.chkAlertSubmit(UsersPage.java:133)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkAlertSubmit -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="2419" started-at="2020-06-18T11:34:18 IST" finished-at="2020-06-18T11:34:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="beforeMethod" is-config="true" duration-ms="6986" started-at="2020-06-18T11:34:20 IST" finished-at="2020-06-18T11:34:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkOprtrTbl()[pri:7, instance:FullSite.UsersPage@6d1014]" name="chkOprtrTbl" duration-ms="5709" started-at="2020-06-18T11:34:27 IST" finished-at="2020-06-18T11:34:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkOprtrTbl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsersPage@6d1014]" name="afterMethod" is-config="true" duration-ms="2157" started-at="2020-06-18T11:34:33 IST" finished-at="2020-06-18T11:34:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FullSite.UsersPage -->
+      <class name="FullSite.Login_RegistrationPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="6932" started-at="2020-06-18T11:31:15 IST" finished-at="2020-06-18T11:31:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkTitle()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkTitle" duration-ms="47" started-at="2020-06-18T11:31:22 IST" finished-at="2020-06-18T11:31:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkTitle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="191" started-at="2020-06-18T11:31:22 IST" finished-at="2020-06-18T11:31:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="4626" started-at="2020-06-18T11:31:22 IST" finished-at="2020-06-18T11:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkWaterMarkLoginPage()[pri:1, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkWaterMarkLoginPage" duration-ms="120" started-at="2020-06-18T11:31:27 IST" finished-at="2020-06-18T11:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkWaterMarkLoginPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="176" started-at="2020-06-18T11:31:27 IST" finished-at="2020-06-18T11:31:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="4801" started-at="2020-06-18T11:31:27 IST" finished-at="2020-06-18T11:31:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkLoginBoxTxt()[pri:2, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkLoginBoxTxt" duration-ms="97" started-at="2020-06-18T11:31:32 IST" finished-at="2020-06-18T11:31:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkLoginBoxTxt -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="113" started-at="2020-06-18T11:31:32 IST" finished-at="2020-06-18T11:31:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="4620" started-at="2020-06-18T11:31:32 IST" finished-at="2020-06-18T11:31:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chklinkRegister()[pri:3, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chklinkRegister" duration-ms="92" started-at="2020-06-18T11:31:37 IST" finished-at="2020-06-18T11:31:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chklinkRegister -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="122" started-at="2020-06-18T11:31:37 IST" finished-at="2020-06-18T11:31:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="4972" started-at="2020-06-18T11:31:37 IST" finished-at="2020-06-18T11:31:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="emptyUsrPass()[pri:4, instance:FullSite.Login_RegistrationPage@1063c0a]" name="emptyUsrPass" duration-ms="535" started-at="2020-06-18T11:31:42 IST" finished-at="2020-06-18T11:31:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsrPass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="391" started-at="2020-06-18T11:31:43 IST" finished-at="2020-06-18T11:31:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="4689" started-at="2020-06-18T11:31:43 IST" finished-at="2020-06-18T11:31:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkInVldUsr()[pri:5, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkInVldUsr" duration-ms="601" started-at="2020-06-18T11:31:48 IST" finished-at="2020-06-18T11:31:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkInVldUsr -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="1793" started-at="2020-06-18T11:31:48 IST" finished-at="2020-06-18T11:31:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="8749" started-at="2020-06-18T11:31:50 IST" finished-at="2020-06-18T11:31:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkVldUsrPas()[pri:6, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkVldUsrPas" duration-ms="2880" started-at="2020-06-18T11:31:59 IST" finished-at="2020-06-18T11:32:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkVldUsrPas -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="1525" started-at="2020-06-18T11:32:02 IST" finished-at="2020-06-18T11:32:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="10145" started-at="2020-06-18T11:32:03 IST" finished-at="2020-06-18T11:32:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkRegistrPage()[pri:7, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkRegistrPage" duration-ms="439" started-at="2020-06-18T11:32:13 IST" finished-at="2020-06-18T11:32:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkRegistrPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="2107" started-at="2020-06-18T11:32:14 IST" finished-at="2020-06-18T11:32:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="5313" started-at="2020-06-18T11:32:16 IST" finished-at="2020-06-18T11:32:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkRegistration()[pri:8, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkRegistration" duration-ms="1797" started-at="2020-06-18T11:32:21 IST" finished-at="2020-06-18T11:32:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkRegistration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="2197" started-at="2020-06-18T11:32:23 IST" finished-at="2020-06-18T11:32:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="6311" started-at="2020-06-18T11:32:25 IST" finished-at="2020-06-18T11:32:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="RgstrPgeMsg()[pri:9, instance:FullSite.Login_RegistrationPage@1063c0a]" name="RgstrPgeMsg" duration-ms="452" started-at="2020-06-18T11:32:31 IST" finished-at="2020-06-18T11:32:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RgstrPgeMsg -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="142" started-at="2020-06-18T11:32:32 IST" finished-at="2020-06-18T11:32:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="beforeMethod" is-config="true" duration-ms="5561" started-at="2020-06-18T11:32:32 IST" finished-at="2020-06-18T11:32:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkLogOutMsg()[pri:10, instance:FullSite.Login_RegistrationPage@1063c0a]" name="chkLogOutMsg" duration-ms="3473" started-at="2020-06-18T11:32:38 IST" finished-at="2020-06-18T11:32:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkLogOutMsg -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.Login_RegistrationPage@1063c0a]" name="afterMethod" is-config="true" duration-ms="467" started-at="2020-06-18T11:32:41 IST" finished-at="2020-06-18T11:32:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FullSite.Login_RegistrationPage -->
+      <class name="FullSite.DownloadsPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="7208" started-at="2020-06-18T11:34:35 IST" finished-at="2020-06-18T11:34:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkMainNavigationTxt()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="chkMainNavigationTxt" duration-ms="3026" started-at="2020-06-18T11:34:42 IST" finished-at="2020-06-18T11:34:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkMainNavigationTxt -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="2138" started-at="2020-06-18T11:34:45 IST" finished-at="2020-06-18T11:34:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="6740" started-at="2020-06-18T11:34:47 IST" finished-at="2020-06-18T11:34:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="chkDwnTbl()[pri:1, instance:FullSite.DownloadsPage@707e36]" name="chkDwnTbl" duration-ms="5708" started-at="2020-06-18T11:34:54 IST" finished-at="2020-06-18T11:35:00 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<[Sr, Name, vendor, Version, 32bit, 64bit, Common, Official Source
+*For prevoius and latest releases]> but was:<[Sr, Name, vendor, Version, 32bit, 64bit, Common]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<[Sr, Name, vendor, Version, 32bit, 64bit, Common, Official Source
+*For prevoius and latest releases]> but was:<[Sr, Name, vendor, Version, 32bit, 64bit, Common]>
+at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
+at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
+at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:71)
+at FullSite.DownloadsPage.chkDwnTbl(DownloadsPage.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkDwnTbl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="2102" started-at="2020-06-18T11:35:00 IST" finished-at="2020-06-18T11:35:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="5336" started-at="2020-06-18T11:35:02 IST" finished-at="2020-06-18T11:35:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Jdk32bitLnk()[pri:2, instance:FullSite.DownloadsPage@707e36]" name="Jdk32bitLnk" duration-ms="6016" started-at="2020-06-18T11:35:07 IST" finished-at="2020-06-18T11:35:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jdk32bitLnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="188" started-at="2020-06-18T11:35:13 IST" finished-at="2020-06-18T11:35:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="7005" started-at="2020-06-18T11:35:13 IST" finished-at="2020-06-18T11:35:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkGChromeLink()[pri:3, instance:FullSite.DownloadsPage@707e36]" name="chkGChromeLink" duration-ms="5944" started-at="2020-06-18T11:35:20 IST" finished-at="2020-06-18T11:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkGChromeLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="139" started-at="2020-06-18T11:35:26 IST" finished-at="2020-06-18T11:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="18227" started-at="2020-06-18T11:35:26 IST" finished-at="2020-06-18T11:35:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkMozFirefoxLnk()[pri:4, instance:FullSite.DownloadsPage@707e36]" name="chkMozFirefoxLnk" duration-ms="5738" started-at="2020-06-18T11:35:45 IST" finished-at="2020-06-18T11:35:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkMozFirefoxLnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="665" started-at="2020-06-18T11:35:50 IST" finished-at="2020-06-18T11:35:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="5217" started-at="2020-06-18T11:35:51 IST" finished-at="2020-06-18T11:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkGeckoLnk()[pri:5, instance:FullSite.DownloadsPage@707e36]" name="chkGeckoLnk" duration-ms="5799" started-at="2020-06-18T11:35:56 IST" finished-at="2020-06-18T11:36:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkGeckoLnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="162" started-at="2020-06-18T11:36:02 IST" finished-at="2020-06-18T11:36:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="5368" started-at="2020-06-18T11:36:02 IST" finished-at="2020-06-18T11:36:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkJdk64bitLnk()[pri:6, instance:FullSite.DownloadsPage@707e36]" name="chkJdk64bitLnk" duration-ms="5798" started-at="2020-06-18T11:36:08 IST" finished-at="2020-06-18T11:36:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkJdk64bitLnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="275" started-at="2020-06-18T11:36:13 IST" finished-at="2020-06-18T11:36:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="5932" started-at="2020-06-18T11:36:14 IST" finished-at="2020-06-18T11:36:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkChrome64Lnk()[pri:7, instance:FullSite.DownloadsPage@707e36]" name="chkChrome64Lnk" duration-ms="5768" started-at="2020-06-18T11:36:20 IST" finished-at="2020-06-18T11:36:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkChrome64Lnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="1346" started-at="2020-06-18T11:36:25 IST" finished-at="2020-06-18T11:36:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="4656" started-at="2020-06-18T11:36:27 IST" finished-at="2020-06-18T11:36:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkFirefox64Lnk()[pri:8, instance:FullSite.DownloadsPage@707e36]" name="chkFirefox64Lnk" duration-ms="6121" started-at="2020-06-18T11:36:31 IST" finished-at="2020-06-18T11:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkFirefox64Lnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="2124" started-at="2020-06-18T11:36:37 IST" finished-at="2020-06-18T11:36:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="5643" started-at="2020-06-18T11:36:40 IST" finished-at="2020-06-18T11:36:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkGecko64Lnk()[pri:9, instance:FullSite.DownloadsPage@707e36]" name="chkGecko64Lnk" duration-ms="5958" started-at="2020-06-18T11:36:45 IST" finished-at="2020-06-18T11:36:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkGecko64Lnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="611" started-at="2020-06-18T11:36:51 IST" finished-at="2020-06-18T11:36:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="6134" started-at="2020-06-18T11:36:52 IST" finished-at="2020-06-18T11:36:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkJdkOfficialLnk()[pri:10, instance:FullSite.DownloadsPage@707e36]" name="chkJdkOfficialLnk" duration-ms="9406" started-at="2020-06-18T11:36:58 IST" finished-at="2020-06-18T11:37:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkJdkOfficialLnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="184" started-at="2020-06-18T11:37:07 IST" finished-at="2020-06-18T11:37:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="5555" started-at="2020-06-18T11:37:08 IST" finished-at="2020-06-18T11:37:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="chkStandalonJarLnk()[pri:11, instance:FullSite.DownloadsPage@707e36]" name="chkStandalonJarLnk" duration-ms="17883" started-at="2020-06-18T11:37:13 IST" finished-at="2020-06-18T11:37:31 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=83.0.4103.97)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=83.0.4103.97)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+at FullSite.CommonMethods.getUrl(CommonMethods.java:46)
+at FullSite.DownloadsPage.chkStandalonJarLnk(DownloadsPage.java:218)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkStandalonJarLnk -->
+        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="889" started-at="2020-06-18T11:37:31 IST" finished-at="2020-06-18T11:37:32 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at FullSite.CommonMethods.afterMethod(CommonMethods.java:92)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="-1592460452357" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="chkSourceJarOfficialLnk()[pri:12, instance:FullSite.DownloadsPage@707e36]" name="chkSourceJarOfficialLnk" duration-ms="0" started-at="2020-06-18T11:37:32 IST" finished-at="2020-06-18T11:37:32 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at FullSite.CommonMethods.afterMethod(CommonMethods.java:92)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkSourceJarOfficialLnk -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="-1592460452366" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="-1592460452369" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="chkChromeBrowserOfficialLnk()[pri:13, instance:FullSite.DownloadsPage@707e36]" name="chkChromeBrowserOfficialLnk" duration-ms="0" started-at="2020-06-18T11:37:32 IST" finished-at="2020-06-18T11:37:32 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at FullSite.CommonMethods.afterMethod(CommonMethods.java:92)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkChromeBrowserOfficialLnk -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="-1592460452376" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="-1592460452378" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="chkChromedriverOfficial()[pri:14, instance:FullSite.DownloadsPage@707e36]" name="chkChromedriverOfficial" duration-ms="0" started-at="2020-06-18T11:37:32 IST" finished-at="2020-06-18T11:37:32 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at FullSite.CommonMethods.afterMethod(CommonMethods.java:92)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkChromedriverOfficial -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="-1592460452406" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="beforeMethod" is-config="true" duration-ms="-1592460452409" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="chkMozilaBrowserOfficial()[pri:15, instance:FullSite.DownloadsPage@707e36]" name="chkMozilaBrowserOfficial" duration-ms="0" started-at="2020-06-18T11:37:32 IST" finished-at="2020-06-18T11:37:32 IST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53129}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 913d3f44044f6887a05111878dba8f1c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at FullSite.CommonMethods.afterMethod(CommonMethods.java:92)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkMozilaBrowserOfficial -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:FullSite.DownloadsPage@707e36]" name="afterMethod" is-config="true" duration-ms="-1592460452495" started-at="2020-06-18T11:37:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FullSite.DownloadsPage -->
+      <class name="FullSite.DashBoardHomePage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="5133" started-at="2020-06-18T11:37:32 IST" finished-at="2020-06-18T11:37:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkDashBoardPage()[pri:1, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkDashBoardPage" duration-ms="5380" started-at="2020-06-18T11:37:37 IST" finished-at="2020-06-18T11:37:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkDashBoardPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="357" started-at="2020-06-18T11:37:43 IST" finished-at="2020-06-18T11:37:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="5283" started-at="2020-06-18T11:37:43 IST" finished-at="2020-06-18T11:37:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkUsrPage()[pri:2, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkUsrPage" duration-ms="5518" started-at="2020-06-18T11:37:48 IST" finished-at="2020-06-18T11:37:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkUsrPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="2175" started-at="2020-06-18T11:37:54 IST" finished-at="2020-06-18T11:37:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="5079" started-at="2020-06-18T11:37:56 IST" finished-at="2020-06-18T11:38:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkOperatorPage()[pri:3, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkOperatorPage" duration-ms="5373" started-at="2020-06-18T11:38:01 IST" finished-at="2020-06-18T11:38:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkOperatorPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="2180" started-at="2020-06-18T11:38:06 IST" finished-at="2020-06-18T11:38:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="7418" started-at="2020-06-18T11:38:08 IST" finished-at="2020-06-18T11:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkUserLinkPage()[pri:4, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkUserLinkPage" duration-ms="5531" started-at="2020-06-18T11:38:16 IST" finished-at="2020-06-18T11:38:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkUserLinkPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="2195" started-at="2020-06-18T11:38:21 IST" finished-at="2020-06-18T11:38:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="7337" started-at="2020-06-18T11:38:24 IST" finished-at="2020-06-18T11:38:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkDownPage()[pri:5, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkDownPage" duration-ms="5411" started-at="2020-06-18T11:38:31 IST" finished-at="2020-06-18T11:38:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkDownPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="2411" started-at="2020-06-18T11:38:36 IST" finished-at="2020-06-18T11:38:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="14178" started-at="2020-06-18T11:38:39 IST" finished-at="2020-06-18T11:38:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkLogoutPage()[pri:6, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkLogoutPage" duration-ms="3243" started-at="2020-06-18T11:38:53 IST" finished-at="2020-06-18T11:38:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkLogoutPage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="325" started-at="2020-06-18T11:38:56 IST" finished-at="2020-06-18T11:38:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="5168" started-at="2020-06-18T11:38:57 IST" finished-at="2020-06-18T11:39:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkLinkJbk()[pri:7, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkLinkJbk" duration-ms="4821" started-at="2020-06-18T11:39:02 IST" finished-at="2020-06-18T11:39:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkLinkJbk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="401" started-at="2020-06-18T11:39:07 IST" finished-at="2020-06-18T11:39:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="6639" started-at="2020-06-18T11:39:07 IST" finished-at="2020-06-18T11:39:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkHeadings()[pri:8, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkHeadings" duration-ms="3053" started-at="2020-06-18T11:39:14 IST" finished-at="2020-06-18T11:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkHeadings -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="242" started-at="2020-06-18T11:39:17 IST" finished-at="2020-06-18T11:39:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="5591" started-at="2020-06-18T11:39:17 IST" finished-at="2020-06-18T11:39:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkSpanHomePage()[pri:9, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkSpanHomePage" duration-ms="3220" started-at="2020-06-18T11:39:22 IST" finished-at="2020-06-18T11:39:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkSpanHomePage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="430" started-at="2020-06-18T11:39:26 IST" finished-at="2020-06-18T11:39:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="5482" started-at="2020-06-18T11:39:26 IST" finished-at="2020-06-18T11:39:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkSeleniumLinkUrl()[pri:10, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkSeleniumLinkUrl" duration-ms="4492" started-at="2020-06-18T11:39:32 IST" finished-at="2020-06-18T11:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkSeleniumLinkUrl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="207" started-at="2020-06-18T11:39:36 IST" finished-at="2020-06-18T11:39:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="7006" started-at="2020-06-18T11:39:36 IST" finished-at="2020-06-18T11:39:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkLnkJavaj2ee()[pri:11, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkLnkJavaj2ee" duration-ms="4420" started-at="2020-06-18T11:39:43 IST" finished-at="2020-06-18T11:39:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkLnkJavaj2ee -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="2427" started-at="2020-06-18T11:39:48 IST" finished-at="2020-06-18T11:39:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="7098" started-at="2020-06-18T11:39:50 IST" finished-at="2020-06-18T11:39:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkPython()[pri:12, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkPython" duration-ms="4438" started-at="2020-06-18T11:39:57 IST" finished-at="2020-06-18T11:40:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkPython -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="379" started-at="2020-06-18T11:40:02 IST" finished-at="2020-06-18T11:40:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="beforeMethod" is-config="true" duration-ms="12030" started-at="2020-06-18T11:40:02 IST" finished-at="2020-06-18T11:40:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkPhpLink()[pri:13, instance:FullSite.DashBoardHomePage@14ddd49]" name="chkPhpLink" duration-ms="10272" started-at="2020-06-18T11:40:14 IST" finished-at="2020-06-18T11:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkPhpLink -->
+        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:FullSite.DashBoardHomePage@14ddd49]" name="afterMethod" is-config="true" duration-ms="20" started-at="2020-06-18T11:40:24 IST" finished-at="2020-06-18T11:40:24 IST">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.97)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53332}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 37cc0786d9a8fb3adcaf249f1491dd1a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.97)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'VISHAL-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Vishal\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53332}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.97, webStorageEnabled: true}
+Session ID: 37cc0786d9a8fb3adcaf249f1491dd1a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at FullSite.CommonMethods.afterMethod(CommonMethods.java:92)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FullSite.DashBoardHomePage -->
+      <class name="FullSite.UsefulLinks">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="16455" started-at="2020-06-18T11:40:24 IST" finished-at="2020-06-18T11:40:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkUsrLnkTbl()[pri:1, instance:FullSite.UsefulLinks@1554b06]" name="chkUsrLnkTbl" duration-ms="5491" started-at="2020-06-18T11:40:41 IST" finished-at="2020-06-18T11:40:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkUsrLnkTbl -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="2111" started-at="2020-06-18T11:40:46 IST" finished-at="2020-06-18T11:40:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="11137" started-at="2020-06-18T11:40:48 IST" finished-at="2020-06-18T11:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkScheduleLnk()[pri:2, instance:FullSite.UsefulLinks@1554b06]" name="chkScheduleLnk" duration-ms="10492" started-at="2020-06-18T11:41:00 IST" finished-at="2020-06-18T11:41:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkScheduleLnk -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="871" started-at="2020-06-18T11:41:10 IST" finished-at="2020-06-18T11:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="10347" started-at="2020-06-18T11:41:11 IST" finished-at="2020-06-18T11:41:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkVideo()[pri:3, instance:FullSite.UsefulLinks@1554b06]" name="chkVideo" duration-ms="8376" started-at="2020-06-18T11:41:21 IST" finished-at="2020-06-18T11:41:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkVideo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="764" started-at="2020-06-18T11:41:30 IST" finished-at="2020-06-18T11:41:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="7200" started-at="2020-06-18T11:41:30 IST" finished-at="2020-06-18T11:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selInterQues()[pri:4, instance:FullSite.UsefulLinks@1554b06]" name="selInterQues" duration-ms="9700" started-at="2020-06-18T11:41:38 IST" finished-at="2020-06-18T11:41:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selInterQues -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="1074" started-at="2020-06-18T11:41:47 IST" finished-at="2020-06-18T11:41:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="16150" started-at="2020-06-18T11:41:48 IST" finished-at="2020-06-18T11:42:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkJavaIntQuesLink()[pri:5, instance:FullSite.UsefulLinks@1554b06]" name="chkJavaIntQuesLink" duration-ms="11672" started-at="2020-06-18T11:42:05 IST" finished-at="2020-06-18T11:42:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkJavaIntQuesLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="972" started-at="2020-06-18T11:42:16 IST" finished-at="2020-06-18T11:42:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="10281" started-at="2020-06-18T11:42:17 IST" finished-at="2020-06-18T11:42:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkCoursesLink()[pri:6, instance:FullSite.UsefulLinks@1554b06]" name="chkCoursesLink" duration-ms="8941" started-at="2020-06-18T11:42:28 IST" finished-at="2020-06-18T11:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkCoursesLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="40401" started-at="2020-06-18T11:42:36 IST" finished-at="2020-06-18T11:43:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="beforeMethod" is-config="true" duration-ms="22599" started-at="2020-06-18T11:43:17 IST" finished-at="2020-06-18T11:43:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chkPlacementLink()[pri:7, instance:FullSite.UsefulLinks@1554b06]" name="chkPlacementLink" duration-ms="12395" started-at="2020-06-18T11:43:39 IST" finished-at="2020-06-18T11:43:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chkPlacementLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:FullSite.UsefulLinks@1554b06]" name="afterMethod" is-config="true" duration-ms="918" started-at="2020-06-18T11:43:52 IST" finished-at="2020-06-18T11:43:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- FullSite.UsefulLinks -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
